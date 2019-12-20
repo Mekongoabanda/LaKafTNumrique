@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/loading_screen"
+    android:layout_height="match_parent"
+    tools:context=".Authentification.AdminSignin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/logo_esirem"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/titre_appli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="La KafèT Numérik🍸"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:textSize="36dp"/>
+
+        <TextView
+            android:id="@+id/WhoIs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Admin"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textSize="36dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="55dp">
+
+            <ImageView
+                android:id="@+id/icon_email"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/email" />
+
+            <EditText
+                android:id="@+id/edit_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/edit_text_form"
+                android:hint="Veuillez entrer votre email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="35dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="5dp"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/icon_password"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/padlock" />
+
+            <EditText
+                android:id="@+id/edit_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_form"
+                android:hint="Entrez le code administrateur"
+                android:inputType="textPassword"
+                android:paddingLeft="35dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="5dp"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/view_password"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/no_view"
+                android:layout_marginLeft="12dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/resetPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mot de passe oublié?"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                />
+
+            <Button
+                android:id="@+id/signin_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/red_btn"
+                android:text="Connexion"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

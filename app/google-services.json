@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "892129890020",
+    "firebase_url": "https://la-kafet-numerique.firebaseio.com",
+    "project_id": "la-kafet-numerique",
+    "storage_bucket": "la-kafet-numerique.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892129890020:android:f3575e85946c6117",
+        "android_client_info": {
+          "package_name": "esirem.com.lakaftnumrique"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892129890020-3la3qpfkb25gfrqqoeqa61gpoav9ef1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "esirem.com.lakaftnumrique",
+            "certificate_hash": "605eef2a578db434906cf35a399a57be83634805"
+          }
+        },
+        {
+          "client_id": "892129890020-itcip19054ntt6l6mhpi0h4lt830shc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2e9gzLNETKuA8dVEJGEogJaBOcDu4gDk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892129890020-itcip19054ntt6l6mhpi0h4lt830shc3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
